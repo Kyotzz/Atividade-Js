@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"href="../css/index.css">
+    <title>IMC</title>
+</head>
+<body>
+    <h1>Cáluclo de Índice de Massa Corporal</h1>
+    <form>
+        <label for="altura">Informe sua altura:</label>
+        <input type="text" id="altura" name="altura">
+        <br>
+        <label for="peso">Informe seu peso:</label>
+        <input type="text" id="peso" name="peso">
+        <br><br>
+        <button onclick="calculoImc()">Calcular</button>
+    </form>
+
+    <p>Resultado: <span id="resultado"></span></p>
+    <p>Situação: <span id="situacao"></span></p>
+
+    <a href="../index.html">Voltar</a>
+
+    <script src="../js/att2.js"></script>
+</body>
+</html>
